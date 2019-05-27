@@ -4,9 +4,17 @@
         <servlet-name>CartServlet</servlet-name>
         <servlet-class>murach.cart.CartServlet</servlet-class>
     </servlet>
+    <servlet>
+    <servlet-name>rqg</servlet-name>
+    <servlet-class>dan.RandomQuote</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>CartServlet</servlet-name>
         <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>rqg</servlet-name>
+    <url-pattern>/r</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
